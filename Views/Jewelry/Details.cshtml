@@ -1,0 +1,15 @@
+﻿@model Jewelry
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="thumbnail">
+        <h4>
+            <a>@Model.Name</a>
+            <b><a class="pull-right">@Model.Price.ToString("c")</a></b>
+        </h4>
+        <img src="@Model.ImageUrl" alt="" width="300" height="300"/>
+        <div class="caption-full">
+            <p>@Model.Description</p>
+            
+        </div>
+    </div>
+</div>

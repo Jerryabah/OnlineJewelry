@@ -1,0 +1,21 @@
+﻿@model JewelryListViewModel
+
+
+    @foreach (var jewelry in Model.Jewelries)
+    {
+
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <h4>
+                    <a asp-controller="Jewelry" asp-action="Details" asp-route-idJewelry="@jewelry.JewelryId">@jewelry.Name</a>
+                </h4>
+             <img src="@jewelry.ImageUrl" alt="" width="300" height="300" />
+             <div class="caption">
+                 <h3 class="pull-right">@jewelry.Price.ToString("c")</h3>
+                 <p>@jewelry.Description</p>
+
+             </div>
+            </div>
+        </div>
+
+    }
