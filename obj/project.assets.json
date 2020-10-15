@@ -8479,11 +8479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry\\OnlineJewelry.csproj",
+      "projectUniqueName": "C:\\Users\\jerry\\source\\repos\\OnlineJewelry\\OnlineJewelry.csproj",
       "projectName": "OnlineJewelry",
-      "projectPath": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry\\OnlineJewelry.csproj",
+      "projectPath": "C:\\Users\\jerry\\source\\repos\\OnlineJewelry\\OnlineJewelry.csproj",
       "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry\\obj\\",
+      "outputPath": "C:\\Users\\jerry\\source\\repos\\OnlineJewelry\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",

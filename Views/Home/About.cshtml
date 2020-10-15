@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<!-- About Area Start -->
+<div class="about-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="section-tittle mb-60 text-center pt-10">
+                    <h2>Welcome to Maggie Vee Jewelry</h2>
+                    <p class="pera">
+                        I use the finest quality of freshwater or saltwater cultured pearls, quality leather and a variety of turquoise. All pearls are hand drilled by me, so that the size of the drilled hole will be perfect for what the item its used for.
+                        The item in the picture is the exact one you will receive, unless you want a different length or color of pearl or leather. Pearls are made by nature and very unique so all will include some imperfections.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-12">
+                <div class="row justify-content-center" text-align="center">
+                    <img src="~/assets/img/blog/wave.jpg" width="1000" height="250">
+                </div>
+            </div>
+        
+
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="about-img pb-bottom">
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="section-tittle mb-60 text-center pt-10">
+                    <p class="pera">Custom creations and custom lengths are welcome. Please feel free to contact me if you have any questions.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- About Area End -->
+<!--? Popular Items Start -->
+<div class="popular-items">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-popular-items mb-50 text-center">
+                    <div class="popular-img">
+                        <img src="~/assets/img/blog/necklace.jpg" alt="" width="300" height="300">
+                        <div class="favorit-items">
+                            <a asp-controller="Jewelry" asp-action="List" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-popular-items mb-50 text-center">
+                    <div class="popular-img">
+                        <img src="~/assets/img/blog/pearl_necklace.jpg" alt="" width="300" height="300">
+                        <div class="favorit-items">
+                            <a asp-controller="Jewelry" asp-action="List" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-popular-items mb-50 text-center">
+                    <div class="popular-img">
+                        <img src="~/assets/img/blog/starfish.jpg" alt="" width="300" height="300">
+                        <div class="favorit-items">
+                            <a asp-controller="Jewelry" asp-action="List" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-popular-items mb-50 text-center">
+                    <div class="popular-img">
+                        <img src="~/assets/img/blog/surfer.jpg" alt="" width="300" height="300">
+                        <div class="favorit-items">
+                            <a asp-controller="Jewelry" asp-action="List" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row">
+                        foreach (var jewelry in Model.Jewelries)
+                        {
+                            <div class="col-sm-4 col-lg-4 col-md-4">
+                                <div class="thumbnail">
+                                    <h4>
+                                        <a asp-controller="Jewelry" asp-action="Details" asp-route-idJewelry="jewelry.JewelryId">jewelry.Name</a>
+                                    </h4>
+                                    <img src="jewelry.ImageUrl" alt="" width="300" height="300" />
+                                    <div class="caption">
+                                        <h3 class="pull-right">jewelry.Price.ToString("c")</h3>
+                                        <p>jewelry.ShortDescription</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        }-->

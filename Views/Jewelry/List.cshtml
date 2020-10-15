@@ -1,21 +1,133 @@
 ﻿@model JewelryListViewModel
 
 
-    @foreach (var jewelry in Model.Jewelries)
+    <main>
+        <!-- breadcrumb Start-->
+        <div class="page-notification">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- listing Area Start -->
+        <div class="category-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 col-md-10">
+                        <div class="section-tittle mb-50">
+                            <h2>Jewelry</h2>
+                            <p>Find your perfect style!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--? Left content -->
+                    <div class="col-xl-3 col-lg-3 col-md-4 ">
+                        <!-- Job Category Listing start -->
+                        <div class="category-listing mb-50">
+                            <!-- single one -->
+                            <div class="single-listing">
+                                <!-- Select City items start -->
+                                <div class="select-job-items2">
+                                    <select name="select2">
+                                        <option value="">Category</option>
+                                        <option value="">Necklaces</option>
+                                        <option value="">Bracelets</option>
+                                        <option value="">Earrings</option>
+                                        <option value="">Silk Ribbon Bracelets</option>
+                                        <option value="">Anklets</option>
+                                        <option value="">Rings</option>
+                                    </select>
+                                </div>
+
+                                <div class="select-job-items2">
+                                    <select name="select6">
+                                        <option value="">Price range</option>
+                                        <option value="">$20 to $50</option>
+                                        <option value="">$50 to $100</option>
+                                        <option value="">$100 to $200</option>
+                                    </select>
+                                </div>
+                                <!--  Select km items End-->
+                            </div>
+                        </div>
+                        <!-- Job Category Listing End -->
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-8 ">
+                        <!--? New Arrival Start -->
+                        <div class="new-arrival new-arrival2">
+                            <div class="row">
+                                @foreach (var jewelry in Model.Jewelries)
+                                {
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                        <div class="single-new-arrival mb-50 text-center">
+                                            <div class="popular-img">
+                                                <img src="@jewelry.ImageUrl" alt="" width="300" height="300" />
+                                                <div class="favorit-items">
+                                                    <!-- <span class="flaticon-heart"></span> -->
+                                                    <img src="~/assets/img/gallery/favorit-card.png" alt="" target="_top">
+                                                </div>
+                                            </div>
+                                            <div class="popular-caption">
+                                                <h3><a asp-controller="Jewelry" asp-action="Details" asp-route-idJewelry="@jewelry.JewelryId">@jewelry.Name</a></h3>
+                                                <div class="rating mb-10">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span>@jewelry.Price.ToString("c")</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="row justify-content-center">
+                                    <div class="room-btn mt-20">
+                                        <a asp-controller="Jewelry" asp-action="List" class="border-btn">Browse More</a>
+                                    </div>
+                                </div>                           
+                        
+                    
+                
+            </div>
+        </div>
+    </main>
+
+
+                                <!--foreach (var jewelry in Model.Jewelries)
     {
 
         <div class="col-sm-4 col-lg-4 col-md-4">
             <div class="thumbnail">
                 <h4>
-                    <a asp-controller="Jewelry" asp-action="Details" asp-route-idJewelry="@jewelry.JewelryId">@jewelry.Name</a>
+                    <a asp-controller="Jewelry" asp-action="Details" asp-route-idJewelry="jewelry.JewelryId">jewelry.Name</a>
                 </h4>
-             <img src="@jewelry.ImageUrl" alt="" width="300" height="300" />
-             <div class="caption">
-                 <h3 class="pull-right">@jewelry.Price.ToString("c")</h3>
-                 <p>@jewelry.Description</p>
+                <img src="jewelry.ImageUrl" alt="" width="300" height="300" />
+                <div class="caption">
+                    <h3 class="pull-right">jewelry.Price.ToString("c")</h3>
+                    <a class="text-center"><p>jewelry.ShortDescription</p></a>
 
-             </div>
+
+                </div>
             </div>
         </div>
 
-    }
+    }-->
+                                <!-- Button -->
+
+
+
+

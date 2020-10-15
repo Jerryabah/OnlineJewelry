@@ -20,8 +20,18 @@ namespace OnlineJewelry.Controllers
         public IActionResult Index()
         {
             var listJewelry = new JewelryListViewModel();
-            listJewelry.Jewelries = _jewelryRepository.GetAllJewelry().Take(6);
+            listJewelry.Jewelries = _jewelryRepository.GetAllJewelry().Take(8);
             return View(listJewelry);
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
         }
     }
 }

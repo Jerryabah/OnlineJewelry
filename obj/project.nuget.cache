@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7SzhiHoNhiBW/9stTjZeCFv/X5PVDi2KQ+K6I9yvRmaGEn4fVa3CwzBdLN5oH35sUcvgu6Ql6T4b1rK853VO+A==",
+  "dgSpecHash": "I3R6u3zoqd3KLQnP//88pdT5y4QLDOSU2bTyOMT3tXtZy9ctBe5CnekWiMD9VWwLZGaYzgDwENLxgC2v3KKrEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry\\OnlineJewelry.csproj",
+  "projectFilePath": "C:\\Users\\jerry\\source\\repos\\OnlineJewelry\\OnlineJewelry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jerry\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jerry\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

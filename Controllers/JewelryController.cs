@@ -35,5 +35,15 @@ namespace OnlineJewelry.Controllers
             return View(jewelry);
         }
 
+        //public IActionResult About()
+        //{
+           
+        //    return View(About);
+        //}
+
+        //private IActionResult View(Func<IActionResult> about)
+        //{
+        //    return View(About);
+        //}
     }
 }

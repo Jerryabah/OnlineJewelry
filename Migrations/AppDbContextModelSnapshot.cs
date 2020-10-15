@@ -102,6 +102,9 @@ namespace OnlineJewelry.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("ShortDescription")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("JewelryId");
 
                     b.HasIndex("CategoryId");

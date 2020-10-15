@@ -20,6 +20,7 @@ namespace OnlineJewelry.Models
         [ForeignKey("Category")]
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+        public string ShortDescription { get; set; }
 
     }
 }

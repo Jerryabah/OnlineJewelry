@@ -89,7 +89,7 @@ namespace OnlineJewelry.Models
                 Price = 71.00M,
                 Description = "ARE YOU READY FOR SUMMER?........Wait, you need an anklet!\n Natural Greek leather knotted with black seed pearls in between to form the perfect Anklet.Beautifully complemented with with a black cultured freshwater pearl, which also serves as the closure.Anklet measures 10\".",
                 CategoryId = 5,
-                ImageUrl = "\\Images\\Black Pearls and Knots LEATHER Anklet",
+                ImageUrl = "\\Images\\Black Pearls and Knots LEATHER Anklet.jpg",
                 ImageThumbnailUrl = "\\Images\\thumbnails\\Black Pearls and Knots LEATHER Anklet_tn.jpg",
                 IsInStock = true,
             });
