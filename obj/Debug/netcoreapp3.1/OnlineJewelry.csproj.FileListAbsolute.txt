@@ -607,6 +607,6 @@ C:\Users\jerry\source\OnlineJewelry\obj\Debug\netcoreapp3.1\staticwebassets\Onli
 C:\Users\jerry\source\OnlineJewelry\obj\Debug\netcoreapp3.1\OnlineJewelry.dll
 C:\Users\jerry\source\OnlineJewelry\obj\Debug\netcoreapp3.1\OnlineJewelry.pdb
 C:\Users\jerry\source\OnlineJewelry\obj\Debug\netcoreapp3.1\OnlineJewelry.genruntimeconfig.cache
-C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.OnlineJewelryStore - Web Deploy.json
-C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelryStore - Web Deploy\mssql1.arm.json
-C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelryStore - Web Deploy\profile.arm.json
+C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.OnlineJewelry - Web Deploy.json
+C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelry - Web Deploy\mssql1.arm.json
+C:\Users\jerry\source\OnlineJewelry\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelry - Web Deploy\profile.arm.json

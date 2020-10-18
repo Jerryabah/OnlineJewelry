@@ -160,9 +160,6 @@ C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\appsettings.json
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\libman.json
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\serviceDependencies.json
-C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\serviceDependencies.OnlineJewelryStore - Web Deploy.json
-C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelryStore - Web Deploy\mssql1.arm.json
-C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelryStore - Web Deploy\profile.arm.json
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\OnlineJewelry.exe
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\OnlineJewelry.deps.json
 C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\OnlineJewelry.runtimeconfig.json
@@ -310,3 +307,6 @@ C:\Users\jerry\source\OnlineJewelry\obj\Release\netcoreapp3.1\staticwebassets\On
 C:\Users\jerry\source\OnlineJewelry\obj\Release\netcoreapp3.1\OnlineJewelry.dll
 C:\Users\jerry\source\OnlineJewelry\obj\Release\netcoreapp3.1\OnlineJewelry.pdb
 C:\Users\jerry\source\OnlineJewelry\obj\Release\netcoreapp3.1\OnlineJewelry.genruntimeconfig.cache
+C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\serviceDependencies.OnlineJewelry - Web Deploy.json
+C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelry - Web Deploy\mssql1.arm.json
+C:\Users\jerry\source\OnlineJewelry\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\OnlineJewelry - Web Deploy\profile.arm.json

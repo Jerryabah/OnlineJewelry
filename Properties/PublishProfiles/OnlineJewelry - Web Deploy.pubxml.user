@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAF5yRg+oXbEWrUALVK4UTvQAAAAACAAAAAAAQZgAAAAEAACAAAABxGp/Ii1J3x9SIw4IsrC/BuaMsF1VWohnWAUAcY7dJ8AAAAAAOgAAAAAIAACAAAABj5+52ggsNiAjHprmpUAa6nH2QQKWYqaAEp6Rt1bgvoYAAAADWQdzd1Lx/HaY+qfRKgtkJ3dAPhXqmJrj7672nkwsQ0JUV6j2P2uo6DN353i+98uzUkB7c+Osh605MeWbeOoQ/l9SuL3pj05Lp1gDTtSx//T49ooWHuFgOjtizLB02eNlX0H5GB//xXDkgy3hxn3RkD2cP3xijsNMHwjnzaCQ9AkAAAAD9WSIxA9oP26WWHG9UzrWj5cN5k7SrgoGXJ4m75qWi8vD8bb2f/DTxhl3fijVPyqI65GNAvg/t3pS1+Wut2yIK</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:onlinejewelrydbserver.database.windows.net,1433%3bInitial Catalog=OnlineJewelry_db%3bUser Id=Coders%40onlinejewelrydbserver%3bPassword=Project2020</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="OnlineJewelry.Models.AppDbContext">
+      <Value>Data Source=tcp:onlinejewelrydbserver.database.windows.net,1433%3bInitial Catalog=OnlineJewelry_db%3bUser Id=Coders%40onlinejewelrydbserver%3bPassword=Project2020</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
