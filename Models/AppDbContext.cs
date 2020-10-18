@@ -150,7 +150,7 @@ namespace OnlineJewelry.Models
                 JewelryId = 10,
                 Name = "Silk RIBBON and PEARLS Bracelet/Necklace",
                 Price = 28.00M,
-                Description = "FUN FUN FUNThis color ALWAYS makes me think of Summer.Ocean, Waves, Sand & Sun." +
+                Description = "FUN FUN FUN This color ALWAYS makes me think of Summer.Ocean, Waves, Sand & Sun." +
                 "So what better way to celebrate summer then to wear a beachy color with pearls." +
                 "\n ... Freshwater, Cultured, White Pearls strung on a silk ribbon.Hand drilled pearls to fit perfectly on the silk ribbon, " +
                 "pearls can be adjusted to fit your mood.Wrap around your wrist as many times as you wish, knot to finsh.Total length is 34 inches. " +
@@ -158,7 +158,7 @@ namespace OnlineJewelry.Models
                 "\nBonus: can be worn as a necklace:>) \n Notice: this could be a starter pearls and silk ribbon bracelet / necklace. " +
                 "You can purchase more pearls and or different colors of silk ribbon.Please convo me with questions and more information.",
                 CategoryId = 4,
-                ImageUrl = "\\Images\\Silk RIBBON and PEARLS Bracelet/Necklace.jpg",
+                ImageUrl = "\\Images\\Silk RIBBON and PEARLS Bracelet & Necklace.jpg",
                 ImageThumbnailUrl = "\\Images\\thumbnails\\Silk RIBBON and PEARLS Bracelet & Necklace_tn.jpg",
                 IsInStock = true,
             });

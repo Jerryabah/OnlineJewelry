@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerry\\Documents\\OnlineJewelry\\OnlineJewelry.csproj": {}
+    "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerry\\Documents\\OnlineJewelry\\OnlineJewelry.csproj": {
+    "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\Documents\\OnlineJewelry\\OnlineJewelry.csproj",
+        "projectUniqueName": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry.csproj",
         "projectName": "OnlineJewelry",
-        "projectPath": "C:\\Users\\jerry\\Documents\\OnlineJewelry\\OnlineJewelry.csproj",
+        "projectPath": "C:\\Users\\jerry\\source\\OnlineJewelry\\OnlineJewelry.csproj",
         "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\Documents\\OnlineJewelry\\obj\\",
+        "outputPath": "C:\\Users\\jerry\\source\\OnlineJewelry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
